@@ -142,6 +142,56 @@ menu.html:
 </body>
 </html>
 
+style.css:
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0e0e0e;
+    color: #f5f5f5;
+}
+
+header {
+    background: linear-gradient(90deg, #8b0000, #2b0000);
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffd700;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.hero {
+    height: 80vh;
+    background: url('https://images.unsplash.com/photo-1553621042-f6e147245754') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    background: rgba(0,0,0,0.6);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.container {
+    padding: 50px;
+    text-align: center;
+}
+
+.card {
+    background: #1b1b1b;
+    padding: 30px;
+    max-width: 350px;
+    margin: auto;
+    border-radius: 10px;
+}
 
 ```
 ## OUTPUT:
